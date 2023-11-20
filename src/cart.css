@@ -1,0 +1,104 @@
+/* cart-dark.css */
+
+/* Importing fonts and animate.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+@import 'animate.css';
+
+/* Styling for the body */
+body {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for profile name, job title, and description */
+.profile-name,
+.job-title,
+.description {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Styling for the card container */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* Styling for the card */
+.card {
+  margin: 22px;
+  animation: fadeInUp 1s;
+  background-color: #333;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the image container */
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  animation: fadeInRight 1s;
+  width: 200px;
+  height: 200px;
+  border: 0.6px solid #464646;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+}
+
+/* Styling for the content */
+.content {
+  text-align: center;
+  animation: fadeInLeft 1s;
+}
+
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.job-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+/* Styling for the social links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+/* Styling for social icons on hover */
+.instagram:hover {
+  color: #bc2a8d;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
